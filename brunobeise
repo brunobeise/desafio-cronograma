@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronograma de Estudos</title>
+
+    <style>
+        table {
+            border: 1px solid black;
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 1500px;
+
+        }
+
+        td {
+            border: 1px solid black; 
+           text-align: center;
+           width: 100px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 style="display: flex; justify-content: center;" >
+        Plano de Estudos
+
+    </h1>
+    <div style="display: flex; justify-content: center; margin-bottom: 30px;">
+        <img style="width: 200px" src="./image-bonita.png"></div>
+    <table>
+        <tr>
+                <td><img src="./horario.png" alt="" width="60px"></td>
+                <td><h2>Segunda</h2></td>
+                <td><h2>Terça</h2></td>
+                <td><h2>Quarta</h2></td>
+                <td><h2>Quinta</h2></td>
+                <td><h2>Sexta</h2></td>
+                <td><h2>Sábado</h2></td>
+                <td><h2>Domingo</h2></td>
+        </tr>
+        <tr>
+            <td><h2>8:00 - 12:00</h2></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><h2>12:00 - 13:00</h2></td>
+            <td colspan="7"> Almoço</td>
+        </tr>
+        <tr>
+            <td><h2>13:00 - 15:00</h2></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td rowspan="3">Descansar</td>
+        </tr>
+        <tr>
+            <td><h2>15:00 - 18:00</h2></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><h2>18:00 - 22:30</h2></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td><h2>22:30 - 8:00</h2></td>
+            <td colspan="7">Dormir</td>
+        </tr>
+           
+            
+            
+  
+    
+</body>
+</html>
